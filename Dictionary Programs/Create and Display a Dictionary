@@ -1,0 +1,10 @@
+student = {
+    "Name": "Ravi",
+    "Age": 20,
+    "Grade": "A"
+}
+
+print(student)
+
+Output:
+{'Name': 'Ravi', 'Age': 20, 'Grade': 'A'}
