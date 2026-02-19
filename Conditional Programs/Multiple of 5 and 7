@@ -1,0 +1,10 @@
+num = int(input())
+
+if num % 5 == 0 and num % 7 == 0:
+    print("Multiple of 5 and 7")
+else:
+    print("Not multiple")
+
+Output:
+35
+Multiple of 5 and 7
