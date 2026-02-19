@@ -1,0 +1,6 @@
+lst = [10, 20, 30, 40]
+lst.reverse()
+print("Reversed =", lst)
+
+Output:
+Reversed = [40, 30, 20, 10]
