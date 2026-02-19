@@ -1,0 +1,9 @@
+s = input("Enter string: ")
+
+print("Uppercase =", s.upper())
+print("Lowercase =", s.lower())
+
+Output:
+Hello
+Uppercase = HELLO
+Lowercase = hello
