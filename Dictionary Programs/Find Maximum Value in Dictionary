@@ -1,0 +1,10 @@
+marks = {
+    "Ravi": 80,
+    "Anita": 92,
+    "Kumar": 75
+}
+
+print("Highest marks =", max(marks.values()))
+
+Output:
+Highest marks = 92
