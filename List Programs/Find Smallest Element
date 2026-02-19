@@ -1,0 +1,5 @@
+lst = [5, 12, 8, 20, 3]
+print("Smallest =", min(lst))
+
+Output:
+Smallest = 3
