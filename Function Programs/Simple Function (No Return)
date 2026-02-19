@@ -1,0 +1,7 @@
+def greet():
+    print("Hello, Welcome!")
+
+greet()
+
+Output:
+Hello, Welcome!
