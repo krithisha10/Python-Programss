@@ -1,0 +1,8 @@
+a = int(input("Enter base: "))
+b = int(input("Enter power: "))
+
+print("Result =", a**b)
+
+Enter base: 2
+Enter power: 3
+Result = 8
