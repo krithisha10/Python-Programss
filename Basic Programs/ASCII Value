@@ -1,0 +1,5 @@
+c = input("Enter a character: ")
+print("ASCII value =", ord(c))
+
+Enter a character: A
+ASCII value = 65
