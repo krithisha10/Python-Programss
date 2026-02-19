@@ -1,0 +1,8 @@
+s = input("Enter sentence: ")
+words = s.split()
+
+print("Word count =", len(words))
+
+Output:
+I love Python programming
+Word count = 4
