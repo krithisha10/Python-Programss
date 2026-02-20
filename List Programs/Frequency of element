@@ -1,0 +1,8 @@
+L = [2,58,95,999,95,32,15,95,7,45]
+n = int(input("Enter the number:"))
+print("The frequency of number", n, " is ",L.count(n))
+
+Output:
+Enter the number:12
+The frequency of number 12  is  0
+
