@@ -1,5 +1,0 @@
-lst = [5, 12, 8, 20, 3]
-print("Largest =", max(lst))
-
-Output:
-Largest = 20

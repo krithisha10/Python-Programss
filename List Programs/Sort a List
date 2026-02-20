@@ -1,6 +1,0 @@
-lst = [40, 10, 30, 20]
-lst.sort()
-print("Sorted =", lst)
-
-Output:
-Sorted = [10, 20, 30, 40]

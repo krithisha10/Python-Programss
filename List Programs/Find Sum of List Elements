@@ -1,5 +1,0 @@
-lst = [10, 20, 30, 40]
-print("Sum =", sum(lst))
-
-Output:
-Sum = 100
