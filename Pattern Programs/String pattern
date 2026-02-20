@@ -1,0 +1,14 @@
+s = input("Enter the String :")
+n = len(s)
+for i in range(0,n):
+    for j in range(0,i):
+        print(s[j], end='')
+    print(" ")
+    
+Output:
+Enter the String :ABCD
+ 
+A 
+AB 
+ABC 
+ABCD 
