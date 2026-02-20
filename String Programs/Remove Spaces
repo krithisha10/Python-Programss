@@ -1,6 +1,0 @@
-s = input("Enter string: ")
-print("Without spaces =", s.replace(" ", ""))
-
-Output:
-Hello World
-Without spaces = HelloWorld

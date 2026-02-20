@@ -1,6 +1,0 @@
-s = input("Enter string: ")
-print("Reversed =", s[::-1])
-
-Output:
-hello
-Reversed = olleh
