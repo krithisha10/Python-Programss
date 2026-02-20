@@ -1,8 +1,0 @@
-def square(n):
-    return n * n
-
-result = square(4)
-print("Square =", result)
-
-Output:
-Square = 16

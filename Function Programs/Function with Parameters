@@ -1,7 +1,0 @@
-def add(a, b):
-    print("Sum =", a + b)
-
-add(10, 5)
-
-Output:
-Sum = 15
