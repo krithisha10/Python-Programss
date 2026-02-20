@@ -1,0 +1,18 @@
+tpl = eval(input("Enter Tuple :"))
+lenght=len(tpl)
+mean = sum = 0
+for i in range(0,lenght):
+    sum+=tpl[i]
+mean = sum/lenght
+print("Given tuple is :",tpl)
+print("The Mean of given tuple is :",  mean)
+
+Output:
+Enter Tuple :[2,45,888,2,55,676]
+Given tuple is : [2, 45, 888, 2, 55, 676]
+The Mean of given tuple is : 278.0
+
+Enter Tuple :[2,45,888,2,55,676]
+Given tuple is : [2, 45, 888, 2, 55, 676]
+The Mean of given tuple is : 278.0
+
