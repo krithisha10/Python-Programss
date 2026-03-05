@@ -1,0 +1,22 @@
+count = int(input("Enter the count of numbers:"))
+i = 0
+sum = 0
+for i in range(count):
+    x = int(input("Enter an integer:"))
+    sum = sum+x
+avg = sum/count
+print("The average is:", avg)
+
+Output:
+Enter the count of numbers:10
+Enter an integer:5
+Enter an integer:16
+Enter an integer:35
+Enter an integer:10
+Enter an integer:24
+Enter an integer:12
+Enter an integer:34
+Enter an integer:7
+Enter an integer:46
+Enter an integer:56
+The average is: 24.5
