@@ -1,0 +1,13 @@
+import sqlite3
+import io
+conn = sqlite3.connect('mybase.db')
+with io.open('clients_dump.sql','w') as f:
+    for linha in conn.iterdump():
+        f.write('%s\n'%linha)
+print('Backup performed successfully.')
+print('Saved as mydatabse_dump.sql')
+conn.close()
+
+Output:
+Backup performed successfully.
+Saved as mydatabse_dump.sql
