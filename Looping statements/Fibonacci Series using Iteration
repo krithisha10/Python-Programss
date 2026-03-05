@@ -1,0 +1,15 @@
+a = 0
+b = 1
+n = int(input("Enter the number of terms in the sequence:"))
+print(a, b, end=" ")
+
+for _ in range(n-2):
+    c = a + b
+    print(c, end=" ")
+    a, b = b, c
+
+Output:
+Enter the number of terms in the sequence:4
+0 1 1 2 
+
+
