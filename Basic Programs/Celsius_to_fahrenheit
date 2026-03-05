@@ -1,0 +1,7 @@
+c = input("Enter temperature in Centigrade:")
+f = (9*(int(c))/5)+32
+print("Temperature in Fahrenheit is:",f)
+
+Output:
+Enter temperature in Centigrade:0
+Temperature in Fahrenheit is: 32.0
